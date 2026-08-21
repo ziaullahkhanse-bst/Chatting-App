@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatting App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input type="radio" name="nav" id="tab1" checked>
+    <input type="radio" name="nav" id="tab2">
+    <input type="radio" name="nav" id="tab3">
+    <input type="radio" name="nav" id="tab4">
+
+    <div class="app-container">
+        <header class="glass-header">
+            <div class="brand">
+                <h1>Chat</h1>
+                <span class="status-dot"></span>
+            </div>
+            <div class="actions">
+                <i class="fa-solid fa-camera"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+        </header>
+
+        <main class="view-wrapper">
+            <!-- Chat Page -->
+             <section class="view chat-view">
+                <div class="chat-card">
+                    <div class="avatar-wrap">
+                        <img src="https://i.pravatar.cc/150?img=1" alt="User">
+                        <span class="online"></span>
+                    </div>
+                    <div class="chat-info">
+                        <div class="info-top">
+                            <h3>Zia Khan</h3>
+                            <span class="timestamp">12:48</span>
+                        </div>
+                        <p>Project "Chat" is live now!</p>
+                    </div>
+                </div>
+
+                <div class="chat-card">
+                    <div class="avatar-wrap">
+                        <img src="https://i.pravatar.cc/150?img=2" alt="User">
+                    </div>
+
+                    <div class="chat-info">
+                        <div class="info-top">
+                            <h3>Design Team</h3>
+                            <span class="timestamp">Yesterday</span>
+                        </div>
+
+                        <p>Sent a high-res mockup for the profile...</p>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+             </section>
+
+             <section class="view profile-view">
+                <div class="profile-main">
+                    <div class="p-img-box">
+                        <img src="https://i.pravatar.cc/150?img=4" alt="Zia Khan">
+                    </div>
+
+                    <h2>Zia Khan</h2> 
+                    <p>Software Engineer</p>
+
+                    <div class="p-stats">
+                        <div class="stat-item"><b>12</b><span>Projects</span>
+
+                        </div>
+                        <div class="stat-item"><b>4.9</b><span>Rating</span>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+             </section>
+
+
+        </main>
+
+        <nav class="pro-nav">
+            <label for="tab1" class="nav-link">
+                <i class="fa-solid fa-comments"></i>
+                <span>Chats</span>
+            </label>
+            <label for="tab2" class="nav-link">
+                <i class="fa-solid fa-bolt"></i>
+                <span>Status</span>
+            </label>
+            <label for="tab3" class="nav-link">
+                <i class="fa-solid fa-phone"></i>
+                <span>Calls</span>
+            </label>
+            <label for="tab4" class="nav-link">
+                <i class="fa-solid fa-user"></i>
+                <span>Profile</span>
+            </label>
+            
+        </nav>
+
+
+
+
+    </div>
+    
+</body>
+</html>
